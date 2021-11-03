@@ -1,0 +1,5 @@
+﻿{
+  "ConnectionStrings": {
+    "BackgroundTaskDbContext": "Data Source=79.175.151.230;Integrated Security=false;Initial Catalog=EPD_HumanResources_DB2;UId=epduser;pwd=E!P@D#$%5578*&^123;MultipleActiveResultSets=True"
+  }
+}

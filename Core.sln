@@ -1,0 +1,89 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29418.71
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Framework", "src\Core\Framework\Framework.csproj", "{D75AA601-6EE1-4826-BAC6-0BA4D184EB32}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Common", "src\Core\Core.Common\Core.Common.csproj", "{C3764B35-4968-4973-9364-87F4EC19380B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Ocelot", "Core.Ocelot\Core.Ocelot.csproj", "{533A777C-6227-49CF-84CC-C9F73E584E65}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Framework.Test", "Framework.Test\Framework.Test.csproj", "{D7B5F082-6235-4ECA-B840-C207DDDC5D26}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.ServiceBus", "Core.ServiceBus\Core.ServiceBus.csproj", "{E9690F40-2D0F-4677-8D51-3B5D503D82F4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Messaging", "Core.Messaging\Core.Messaging.csproj", "{7ACCCF49-D44D-4D22-9A93-A3A85519CEDF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Pack|Any CPU = Pack|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D75AA601-6EE1-4826-BAC6-0BA4D184EB32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D75AA601-6EE1-4826-BAC6-0BA4D184EB32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D75AA601-6EE1-4826-BAC6-0BA4D184EB32}.Pack|Any CPU.ActiveCfg = Release|Any CPU
+		{D75AA601-6EE1-4826-BAC6-0BA4D184EB32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D75AA601-6EE1-4826-BAC6-0BA4D184EB32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3764B35-4968-4973-9364-87F4EC19380B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3764B35-4968-4973-9364-87F4EC19380B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3764B35-4968-4973-9364-87F4EC19380B}.Pack|Any CPU.ActiveCfg = Pack|Any CPU
+		{C3764B35-4968-4973-9364-87F4EC19380B}.Pack|Any CPU.Build.0 = Pack|Any CPU
+		{C3764B35-4968-4973-9364-87F4EC19380B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3764B35-4968-4973-9364-87F4EC19380B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{533A777C-6227-49CF-84CC-C9F73E584E65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{533A777C-6227-49CF-84CC-C9F73E584E65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{533A777C-6227-49CF-84CC-C9F73E584E65}.Pack|Any CPU.ActiveCfg = Release|Any CPU
+		{533A777C-6227-49CF-84CC-C9F73E584E65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{533A777C-6227-49CF-84CC-C9F73E584E65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7B5F082-6235-4ECA-B840-C207DDDC5D26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7B5F082-6235-4ECA-B840-C207DDDC5D26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7B5F082-6235-4ECA-B840-C207DDDC5D26}.Pack|Any CPU.ActiveCfg = Release|Any CPU
+		{D7B5F082-6235-4ECA-B840-C207DDDC5D26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7B5F082-6235-4ECA-B840-C207DDDC5D26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9690F40-2D0F-4677-8D51-3B5D503D82F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9690F40-2D0F-4677-8D51-3B5D503D82F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9690F40-2D0F-4677-8D51-3B5D503D82F4}.Pack|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9690F40-2D0F-4677-8D51-3B5D503D82F4}.Pack|Any CPU.Build.0 = Debug|Any CPU
+		{E9690F40-2D0F-4677-8D51-3B5D503D82F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9690F40-2D0F-4677-8D51-3B5D503D82F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ACCCF49-D44D-4D22-9A93-A3A85519CEDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ACCCF49-D44D-4D22-9A93-A3A85519CEDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ACCCF49-D44D-4D22-9A93-A3A85519CEDF}.Pack|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ACCCF49-D44D-4D22-9A93-A3A85519CEDF}.Pack|Any CPU.Build.0 = Debug|Any CPU
+		{7ACCCF49-D44D-4D22-9A93-A3A85519CEDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ACCCF49-D44D-4D22-9A93-A3A85519CEDF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {93356A3D-B6D7-4782-B8C2-9667955F232C}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://93.118.101.172:8081/tfs/epd%20main
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Core.Messaging\\Core.Messaging.csproj
+		SccProjectName1 = Core.Messaging
+		SccLocalPath1 = Core.Messaging
+		SccProjectUniqueName2 = Core.Ocelot\\Core.Ocelot.csproj
+		SccProjectName2 = Core.Ocelot
+		SccLocalPath2 = Core.Ocelot
+		SccProjectUniqueName3 = Core.ServiceBus\\Core.ServiceBus.csproj
+		SccProjectName3 = Core.ServiceBus
+		SccLocalPath3 = Core.ServiceBus
+		SccProjectUniqueName4 = Framework.Test\\Framework.Test.csproj
+		SccProjectName4 = Framework.Test
+		SccLocalPath4 = Framework.Test
+		SccProjectUniqueName5 = src\\Core\\Core.Common\\Core.Common.csproj
+		SccProjectName5 = src/Core/Core.Common
+		SccLocalPath5 = src\\Core\\Core.Common
+		SccProjectUniqueName6 = src\\Core\\Framework\\Framework.csproj
+		SccProjectName6 = src/Core/Framework
+		SccLocalPath6 = src\\Core\\Framework
+	EndGlobalSection
+EndGlobal

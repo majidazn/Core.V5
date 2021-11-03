@@ -1,0 +1,57 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup Label="Globals">
+		<SccProjectName>SAK</SccProjectName>
+		<SccProvider>SAK</SccProvider>
+		<SccAuxPath>SAK</SccAuxPath>
+		<SccLocalPath>SAK</SccLocalPath>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<IncludeSymbols>true</IncludeSymbols>
+		<PackageOutputPath>c:\projects\EPDMicroServicePackages</PackageOutputPath>
+		<Version>5.0.3</Version>
+		<Description>
+			New auditing framework added and slog obsoleted
+		</Description>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Compile Remove="Utilities\HttpRequestSender.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="DotNetCore.CAP" Version="5.0.1" />
+		<PackageReference Include="DotNetCore.CAP.SqlServer" Version="5.0.1" />
+		<PackageReference Include="HeaderPropagation" Version="3.0.2" />
+		<PackageReference Include="AspNetCoreRateLimit" Version="3.2.2" />
+		<PackageReference Include="Autofac.Extras.DynamicProxy" Version="6.0.0" />
+		<PackageReference Include="FluentValidation" Version="9.5.1" />
+		<PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.0.0" />
+		<PackageReference Include="MediatR" Version="9.0.0" />
+		<PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.7" />
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.3" />
+		<PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.2.7" />
+		<PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+		<PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+		<PackageReference Include="NServiceBus" Version="7.4.4" />
+		<PackageReference Include="NWebsec.AspNetCore.Middleware" Version="3.0.0" />
+		<PackageReference Include="Polly" Version="7.2.1" />
+		<PackageReference Include="Polly.Extensions.Http" Version="3.0.0" />
+		<PackageReference Include="Serilog.Extensions.Logging.File" Version="2.0.0" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.0" />
+		<PackageReference Include="Swashbuckle.AspNetCore.Filters" Version="6.1.0" />
+		<PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+		<PackageReference Include="Z.EntityFramework.Plus.EFCore" Version="5.1.19" />
+		<PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Newtonsoft" Version="6.1.5" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Core.Common\Core.Common.csproj" />
+	</ItemGroup>
+
+</Project>
